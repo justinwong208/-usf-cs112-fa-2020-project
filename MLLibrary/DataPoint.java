@@ -1,3 +1,4 @@
+
 public class DataPoint{
 	
 	//instance variables
@@ -7,6 +8,7 @@ public class DataPoint{
 	
 	private String label;
 	
+	//Assumed that "type" was just another "feature"
 	private String type;
 	
 	//Constructor
@@ -44,7 +46,7 @@ public class DataPoint{
 		 return this.label;
 	 }
 	 
-	 public void setLabel(double labelparam) {
+	 public void setLabel(String labelparam) {
 		 this.label = labelparam;
 	 }
 	 
@@ -52,7 +54,7 @@ public class DataPoint{
 		 return this.type;
 	 }
 	 
-	 public void setType(double typeparam) {
+	 public void setType(String typeparam) {
 		 this.type = typeparam;
 	 }
 }
