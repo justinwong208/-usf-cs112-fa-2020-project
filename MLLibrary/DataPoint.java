@@ -57,4 +57,9 @@ public class DataPoint{
 	 public void setType(String typeparam) {
 		 this.type = typeparam;
 	 }
+	 
+	 public String toString() {
+		 
+		 return getType();
+	 }
 }
